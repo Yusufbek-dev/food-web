@@ -1,0 +1,52 @@
+@use "../globals/colors" as *;
+@use "../globals/mixin" as *;
+
+.general-top-item {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  .general-btn {
+    font-weight: 700;
+    font-size: .9rem;
+    border: none;
+  }
+}
+
+.slider-box {
+  padding-bottom: 50px;
+}
+.slide-list {
+  display: flex;
+  column-gap: 20px;
+  &__item {
+    width: 30%;
+    @include tablet {
+      width: 45%;
+    }
+    @include mobile {
+      width: 100%;
+    }
+    div {
+      padding: 24px 32px 40px 32px;
+      border: 1px solid #F1F1F1;
+      border-radius: 12px;
+      p {
+        font-size: .93rem;
+        text-align: center;
+        &:nth-child(2) {
+          margin-top: 24px;
+          font-size: .7rem;
+          color: #A9A9A9;
+        }
+      }
+    }
+    img {
+      display: block;
+      width: 48px;
+      height: 48px;
+      margin: 0 auto;
+      transform: translateY(-50%);
+    }
+  }
+}

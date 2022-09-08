@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/cb3b11f165.js"
+      crossorigin="anonymous">  
+    </script>
+    <!-- uikit links -->
+    <link rel="stylesheet" href="../css/uikit.min.css" />
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+    <script defer src="../js/main.js"></script>
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="head-top container">
+        <div class="head-top__left">
+          <a href="#">Chat with us</a>
+          <a href="tel:999999999">+420 336 775 664</a>
+          <a href="mailto:info@freshnesecom.com">info@freshnesecom.com</a>
+        </div>
+        <div class="head-top__right">
+          <a class="menu-item" href="./blog-in.html">Blog</a>
+          <a class="menu-item" href="#">About Us</a>
+          <a class="menu-item" href="#">Careers</a>
+        </div>
+        <div class="head-top__hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+      <div class="head-middle container">
+        <div class="head-middle__logo">
+         <a href="#"> <img src="../images/logo.png" alt="logo"></a>
+        </div>
+        <div class="head-middle__search">
+          <select name="categories" id="">
+            <option value="-1">All categories</option>
+            <option value="c2">categories 2</option>
+            <option value="c3">categories 3</option>
+          </select>
+          <input type="search" placeholder="Search Products, categories ...">
+        </div>
+        <div class="head-middle__contact">
+          <a href="#" class="user">
+            <img src="../images/icons/user.png" alt="user icon">
+          </a>
+          <a href="#" class="basket">
+            <img src="../images/icons/basket.png" alt="basket icon">
+          </a>
+        </div>
+      </div>
+      <div class="head-catalog">
+        <div class="head-catalog__item">
+          <a href="#">Bakery &#8891;</a>
+        </div>
+        <div class="head-catalog__item">
+          <a href="#">Fruit and vegetables &#8891;</a>
+        </div>
+        <div class="head-catalog__item">
+          <a href="./product.html">Meat and fish &#8891;</a>
+        </div>
+        <div class="head-catalog__item">
+          <a href="#">Drinks &#8891;</a>
+        </div>
+        <div class="head-catalog__item">
+          <a href="#">Kitchen &#8891;</a>
+        </div>
+        <div class="head-catalog__item">
+          <a href="#">Special nutrition &#8891;</a>
+        </div>
+        <div class="head-catalog__item">
+          <a href="#">Baby &#8891;</a>
+        </div>
+        <div class="head-catalog__item">
+          <a href="#">Pharmacy &#8891;</a>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <div class="links">
+        <a href="../index.html">Homepage  /</a>
+       <a href="#">Fruit and vegetables</a>
+      </div>
+      <div class="line-headline">
+        <h3>Fruit and vegetables</h3>
+        <div>
+          <a href="#"><img src="/images/icons/grid-list.png" alt="">Grid view</a>
+          <a href="#"><img src="/images/icons/list.png" alt="">List view</a>
+          <a href="#"><span>117</span> Products</a>
+        </div>
+      </div>
+      <div class="options">
+        <div>
+          <label for="t1"><input type="radio" id="t1" name="filter-text"> Filtre text</label>
+          <label for="t2"><input type="radio" id="t2" name="filter-text"> Filter text</label>
+        </div>
+        <div>
+          <label for="check1"><input type="checkbox" id="check1" name="check-text"> Filtre</label>
+          <input type="submit" value="Nbm">
+        </div>
+        <div>
+          <label for="check1"><input type="checkbox" id="check1" name="check-text"> Filtre</label>
+          <input type="submit" value="Nbm">
+        </div>
+        <div>
+          <div>
+            <label for="check1"><input type="checkbox" id="check1" name="check-text" checked> Filtre</label>
+            <input type="submit" value="12">
+          </div>
+          <select name="select" id="sel">
+            <option value="-1">Select</option>
+            <option value="1">option1</option>
+          </select>
+        </div>
+      </div>
+      <p class="applied">Applied filtres:  <span>Selected Filtre</span><span>Selected Filtre</span></p>
+      <section class="main-box fruit">
+        <div class="main-box__left">
+          <h5>Best from Farmers</h5>
+          <ul>
+            <li>
+              <a href="#">Category name <span>124</span></a>
+            </li>
+            <li>
+              <a href="#">Fruit  <span>124</span></a>
+            </li>
+            <li>
+              <a href="#">Meat and fish <span>124</span></a>
+            </li>
+            <li>
+              <a href="#">Drinks <span>124</span></a>
+            </li>
+            <li>
+              <a href="#">Kitchen</a>
+            </li>
+          </ul>
+          <h5>Brands</h5>
+          <ul class="check-list">
+            <li class="check-list__item">
+               <label for="check1"><input type="checkbox" id="check1"> Filtre by brand item</label>
+               <label for="check2"><input type="checkbox" id="check2" checked> Filtre by brand item</label>
+               <label for="check3"><input type="checkbox" id="check3" checked> Filtre by brand item</label>
+               <label for="check4"><input type="checkbox" id="check4"> Filtre by brand item</label>
+               <label for="check5"><input type="checkbox" id="check5"> Filtre by brand item</label>
+            </li>
+          </ul>
+          <h5>Rating</h5>
+          <ul class="check-list stars">
+            <li class="check-list__item">
+               <label for="z1"><input type="checkbox" id="z1"> <img src="/images/icons/z5.png.png" alt=""></label>
+               <label for="z2"><input type="checkbox" id="z2" checked> <img src="/images/icons/z4.png" alt=""></label>
+               <label for="z3"><input type="checkbox" id="z3" checked> <img src="/images/icons/z3.png" alt=""></label>
+               <label for="z4"><input type="checkbox" id="z4"> <img src="/images/icons/z2.png" alt=""></label>
+               <label for="z5"><input type="checkbox" id="z5"> <img src="/images/icons/z1.png" alt=""></label>
+            </li>
+          </ul>
+          <h5>Price</h5>
+          <form action method="get" class="price-form">
+            <input type="range" id="sand" min="1" max="100" oninput="result.value = sand.value">
+            <br>
+            <div>
+              <label for="result"> min<input type="number" id="result2" value="1" placeholder="0"></label>
+              <label for="result2"> max<input type="number" id="result" value="10" placeholder="000"></label>
+            </div>
+            <input type="submit" value="Apply">
+            <input type="reset" value="Reset">
+          </form>
+        </div>
+        <div class="main-box__right product">
+          <div class="product">
+            <div class="product__img">
+              <img src="../images/Rectangle-img.jpg" alt="">
+            </div>
+            <h5 class="product__title">Product Title</h5>
+            <p class="product__subtitle">Space for a small product description </p>
+            <p class="product__title">&#10029; &#10029; &#10029; &#10029; &#10032;</p>
+            <div>
+              <h4 class="product__price">1.48 USD</h4>
+              <button class="product__btn">Buy now</button>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__img">
+              <img src="../images/Rectangle-img.jpg" alt="">
+              <p>- 36 %</p>
+            </div>
+            <h5 class="product__title">Product Title</h5>
+            <p class="product__subtitle">Space for a small product description </p>
+            <div>
+              <h4 class="product__price">1.48 USD</h4>
+              <button class="product__btn">Buy now</button>
+              <del>48.56</del>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__img">
+              <img src="../images/Rectangle-img.jpg" alt="">
+              <p>- 36 %</p>
+            </div>
+            <h5 class="product__title">Product Title</h5>
+            <p class="product__subtitle">Space for a small product description </p>
+            <p class="product__title">&#10029; &#10029; &#10029; &#10029; &#10032;</p>
+            <div>
+              <h4 class="product__price">1.48 USD</h4>
+              <button class="product__btn">Buy now</button>
+              <del>48.56</del>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__img">
+              <img src="../images/Rectangle-img.jpg" alt="">
+            </div>
+            <h5 class="product__title">Product Title</h5>
+            <p class="product__subtitle">Space for a small product description </p>
+            <p class="product__title">&#10029; &#10029; &#10029; &#10029; &#10032;</p>
+            <div>
+              <h4 class="product__price">1.48 USD</h4>
+              <button class="product__btn">Buy now</button>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__img">
+              <img src="../images/Rectangle-img.jpg" alt="">
+              <p>- 36 %</p>
+            </div>
+            <h5 class="product__title">Product Title</h5>
+            <p class="product__subtitle">Space for a small product description </p>
+            <div>
+              <h4 class="product__price">1.48 USD</h4>
+              <button class="product__btn">Buy now</button>
+              <del>48.56</del>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__img">
+              <img src="../images/Rectangle-img.jpg" alt="">
+              <p>- 36 %</p>
+            </div>
+            <h5 class="product__title">Product Title</h5>
+            <p class="product__subtitle">Space for a small product description </p>
+            <p class="product__title">&#10029; &#10029; &#10029; &#10029; &#10032;</p>
+            <div>
+              <h4 class="product__price">1.48 USD</h4>
+              <button class="product__btn">Buy now</button>
+              <del>48.56</del>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__img">
+              <img src="../images/Rectangle-img.jpg" alt="">
+            </div>
+            <h5 class="product__title">Product Title</h5>
+            <p class="product__subtitle">Space for a small product description </p>
+            <p class="product__title">&#10029; &#10029; &#10029; &#10029; &#10032;</p>
+            <div>
+              <h4 class="product__price">1.48 USD</h4>
+              <button class="product__btn">Buy now</button>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__img">
+              <img src="../images/Rectangle-img.jpg" alt="">
+              <p>- 36 %</p>
+            </div>
+            <h5 class="product__title">Product Title</h5>
+            <p class="product__subtitle">Space for a small product description </p>
+            <div>
+              <h4 class="product__price">1.48 USD</h4>
+              <button class="product__btn">Buy now</button>
+              <del>48.56</del>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product__img">
+              <img src="../images/Rectangle-img.jpg" alt="">
+              <p>- 36 %</p>
+            </div>
+            <h5 class="product__title">Product Title</h5>
+            <p class="product__subtitle">Space for a small product description </p>
+            <p class="product__title">&#10029; &#10029; &#10029; &#10029; &#10032;</p>
+            <div>
+              <h4 class="product__price">1.48 USD</h4>
+              <button class="product__btn">Buy now</button>
+              <del>48.56</del>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer">
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <p>Get in touch</p>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">About Us</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Careers</a>
+            
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Press Releases</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Blog</a>
+          </li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <p>Connections</p>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Facebook</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Twitter</a>
+            
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Instagram</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Youtube</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">LinkedIn</a>
+          </li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <p>Earnings</p>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Earnings</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Careers</a>
+            
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Press Releases</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Blog</a>
+          </li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <p>Account</p>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">About Us</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Careers</a>
+            
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Press Releases</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <div class="container"><h4 style="padding-bottom:30px;">Product tags</h4></div>
+      <div class="container product-tag">
+        <a href="#" class="product-tag__item">Beans</a>
+        <a href="#" class="product-tag__item">Carrots</a>
+        <a href="#" class="product-tag__item">Apples</a>
+        <a href="#" class="product-tag__item">Beans</a>
+        <a href="#" class="product-tag__item">Apples</a>
+        <a href="#" class="product-tag__item">Beans</a>
+        <a href="#" class="product-tag__item">Chilli peppers</a>
+        <a href="#" class="product-tag__item">Beans</a>
+        <a href="#" class="product-tag__item">Watermelons</a>
+        <a href="#" class="product-tag__item">Oranges</a>
+        <a href="#" class="product-tag__item">Beans</a>
+        <a href="#" class="product-tag__item">Bananas</a>
+        <a href="#" class="product-tag__item">Beans</a>
+        <a href="#" class="product-tag__item">Grapes</a>
+        <a href="#" class="product-tag__item">Beans</a>
+        <a href="#" class="product-tag__item">Seo tag</a>
+        <a href="#" class="product-tag__item">Fresh food</a>
+        <a href="#" class="product-tag__item">Lemons</a>
+      </div>
+      <div class="container footer-copy">
+        <p>Copyright © 2020 <a href="#">petrbilek.com</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
